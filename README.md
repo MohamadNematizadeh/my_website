@@ -1,2 +1,2 @@
-# my_website
+# My_website
 A simple personal website

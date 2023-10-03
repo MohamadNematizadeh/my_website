@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="expected-hostname" content="arjuncvinod.github.io">
+    <meta property="og:site_name" content="Arjun C Vinod - Portfolio">
+    <meta property="og:title" content="Arjun C Vinod">
+    <meta property="og:description" content="Portfolio Website">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="arjuncvinod" />
+    <meta name="twitter:title" content="Arjun C Vinod" />
+    <meta name="twitter:description" content="Portfolio Website" />
+    <meta name="twitter:image" content="https://repository-images.githubusercontent.com/625101063/b0b8db69-4339-489c-ba88-a1418aba92d0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-small.png" type="image/x-icon">   
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/eabac940d1.js" crossorigin="anonymous"></script>
+
+    <title>Mohammad Nematizadeh</title>
+</head>
+
+<body id="body" onload="loader();dark();showhome()">
+    <nav id="nav" style="display:none;">
+        <div class="logo">
+            <a href="#home"><h2>Mohammad Nematizadeh</h2></a>
+        </div>
+        <button class="bar" onclick="navtoggle()"><i class="fa-solid fa-bars"></i></button>
+        <div class="nav-items" onblur="blur()">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+        <button onclick="dark()" id="dark" class="theme-btn"><img src="icons/night.png" alt=""></button>
+        <button onclick="light()" id="light" class="theme-btn"><img src="icons/sun.png" alt=""></i></i></button></li>
+    </nav>
+    <main id="main" style="display:none;">
+        <section id="home" >
+            <div class="head-container">
+                <div class="heading">
+                    <h2>Hi,</h2>
+                    <h2><span class="hide">Hi,</span> I am <span class="name"> Mohammad</span></h2>
+                    <h2><span class="multiText"> </span></h2>
+                    <a href="assets/RESUME.pdf" download><button class="button">Download CV </button></a>
+                </div>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/arjun-c-vinod-951b5a161/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/arjuncvinod/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="explore">
+                    <a href="#about"><i class="fa-solid fa-arrow-down-long"></i></a>
+                </div>
+
+            </div>
+            <div class="picture">
+                <div class="dp">
+                    <img src="images/bg_1.png" alt="">
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="about" class="reveal">
+            <h1 class="titles">About &nbsp; <span> Me</span> </h1>
+            <div class="about reveal"> 
+                <div class="img-container reveal">
+                    <img src="images/bg_1.png" width="1000">
+                </div>
+                <div class="about-container reveal">
+                    <div class="p-container">
+                        <p>
+                            Hi! I am <span>Mohammad Nematizadeh</span>
+                           and i am Programmer Machine Learning Engineer and  Web developer
+                            I am currently working in the field of artificial intelligence and I am active in the fields of website design and artificial intelligence
+                            <br>
+                            <br>
+                        </p>
+
+                    </div>
+                    <div class="btn-container reveal">
+                        <a href="#skills"><Button class="button">Read More</Button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="reveal">
+
+            <h1 class="titles"> <span>MY</span> &nbsp Skills</h1>
+            <div class="skill-container reveal">
+                <div class="front end reveal">
+
+
+                    <h1>Frontend</h1>
+                    <div class="skills-box" >
+                        <div class="skill">
+                            <img src="skills/react.png" alt="">
+                            <h2>React js</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/html.png" alt="">
+                            <h2>HTML</h2>
+
+                        </div>
+                        <div class="skill">
+                            <img src="skills/css-3.png" alt="">
+                            <h2>CSS</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/js.png" alt="">
+                            <h2>Javascript</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/bootstrap.png" alt="">
+                            <h2>Bootstrap</h2>
+                        </div>
+                        
+
+                       
+                    </div>
+                </div>
+                <div class="back end reveal">
+                    <h1>Backend</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/nodejs.png" alt="">
+                            <h2>Node js</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/mysql.png" alt="">
+                            <h2>MySQL</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/php.png" alt="">
+                            <h2>PHP</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" alt="" class="outline">
+                            <h2>Laravel</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="others end reveal">
+
+
+                    <h1 style="height: 95%;" class="pch1">Other</h1>
+                    <h1 class="mobh1">Other</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/c.png" alt="">
+                            <h2>C</h2>
+
+                        </div>
+                        <div class="skill">
+                            <img src="skills/python.png" alt="">
+                            <h2>Python</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/linux.png" alt="">
+                            <h2>linux</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/ubuntu2.png" alt="">
+                            <h2>ubuntu</h2>
+                        </div>
+
+                      
+                    </div>
+                </div>
+
+
+        </section>
+        <section id="projects" class="reveal">
+            <h1 class="titles"> <span>MY</span> &nbsp Projects</h1>
+            <div class="project-container">
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/porjket/shop.png" alt="">
+                    </div>
+                    <h1>Online shop</h1>
+                    <p> <span class="language"> HTML </span>
+                        <span class="language"> CSS </span>
+                        <span class="language"> Javascript</span>
+                        <span class="language"> Bootstrap </span>
+                        <span class="language"> Node.js </span>
+                        <span class="language"> xampp </span>
+                        <span class="language"> php </span>
+                        <span class="language"> Laravel </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/MohamadNematizadeh/laravel_mohammad_shop"><button>Github</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/porjket/website-PlantsAI.png" alt="">
+                    </div>
+                    <h1>PlantsAI </h1>
+                    <p> <span class="language"> HTML </span>
+                        <span class="language"> CSS </span>
+                        <span class="language"> Javascript</span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/MohamadNematizadeh/website_PlantsAI"><button>Github</button></a>
+                        <a href="plantsai.ir"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="images/porjket/BrainTumor.png" alt="">
+                    </div>
+                    <h1>BrainTumor</h1>
+                    <p> <span class="language"> Python </span>
+                        <span class="language"> OpenCV </span>
+                        <span class="language"> Tensorflow</span>
+                        <span class="language">MachineLearning</span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://github.com/MohamadNematizadeh/BrainTumor"><button>Github</button></a>
+                    </div>
+                </div>
+            <div class="more-btn reveal">
+                <a href="https://github.com/MohamadNematizadeh"><button>View More &nbsp;<i
+                            class="fa-solid fa-arrow-right"></i></button></a>
+            </div>
+        </section>
+
+    
+        <section id="contact" class="reveal">
+            <h1 class="titles"> Contact&nbsp<span>Me</span> </h1>
+            <div class="contact-container reveal">
+                <div class="left-side">
+                    <a href="tel:+989910866063" class="reveal" id="no-anim">
+                        <div class="details">
+                        <h1><i class="fa-solid fa-phone"></i>Phone</h1>
+                        <h3>+989910866063</h3>
+                    </div>
+                </a>
+                <a href="mailto:mohammad.nematizzadeh@gmail.com" class="reveal" id="no-anim"></a>
+                    <div class="details">
+                        <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+                        <h5>mohammad.nematizzadeh@gmail.com
+                        </h5>
+                    </div>
+                </a>
+                <a href="" class="reveal" id="no-anim">
+                    <div class="details">
+                        <h1><i class="fa-solid fa-location-dot"></i>&nbspLocation</h1>
+                        <h3>Mashhad, Iran</h3>
+                    </div>
+                </a>
+                </div>
+                <div class="right-side">
+                    <div class="input-container">
+                        <form action="https://formspree.io/f/mdovpgpp" method="POST">
+                                <input type="text" placeholder="Your name" required name="name" autocomplete="off" class="reveal">
+                                <input type="text" placeholder="Your email" required name="email" autocomplete="off" class="reveal">
+                                <textarea cols="30" rows="10" placeholder="Your message" required name="message" class="reveal"></textarea>
+                                <button type="submit" class="reveal">Send  &nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        
+
+        <footer>
+            <div class="footer-socials">
+                <a href="tel:+989910866063" class="fa-brands fa-whatsapp" data-bs-title="call me" data-bs-placement="left" target="_blank" data-bs-toggle="tooltip" style="left: 148px; top: -68px;">
+                </a>
+                <a href="https://www.linkedin.com/in/mohammadnematizade/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/MohamadNematizadeh"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </footer>
+        
+        <!-- <audio src="assets/Reminder.mp3" autoplay controls> </audio> -->
+
+        <div class="copyright">
+        <small>
+            © Mohammad Nematizadeh <span id="year">2023</span> | 
+            Made with <i class="fa-brands fa-python"></i>
+        </small>
+    </div>
+     </section>
+    </main>
+
+    <!-- -----------------------loading animation----------------- -->
+    <div id="loader">
+    <div class="boxes">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <a class="dribbble" href="https://dribbble.com/shots/5533600-Loading-boxes" target="_blank"><img
+            src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg"
+            alt=""></a>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+<!--========================================= Why are you reading this ? ============================================== -->
+
+
+<!-- ===================================== Design and Code by Arjun C Vinod ============================================-->
