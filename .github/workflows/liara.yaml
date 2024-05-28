@@ -1,6 +1,5 @@
 
 name: CD-Liara
-
 on:
   push:
     branches:
@@ -14,14 +13,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
-
-      - name: Install Liara CLI
-        run: npm i -g @liara/cli@5
-
-      - name: Deploy
+      - name: update-liara
         env:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
-          if [ ${{ github.ref }} == 'refs/heads/master' ]; then
-            liara deploy --app="mohamadnematizadeh" --api-token="$LIARA_TOKEN" --no-app-logs
-          fi
+          npm i -g @liara/cli@5
+          liara deploy --app="mohamadnematizadehE" --api-token="$LIARA_TOKEN" --no-app-logs --port=3000 
