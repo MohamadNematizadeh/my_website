@@ -1,6 +1,6 @@
 from flask import Flask , render_template
 
-app = Flask("my websit")
+app = Flask(__name__)
 names = ["پروژه تشخیص چهره","پروژه طراحی سایت دیج کالا","پروژه آب و هوای"]
 images = ["static/image/projket/face_Recognition.jpg","static/image/projket/digikala.png","static/image/projket/temps.jpg"]
 file =  "static/cv/Mohamad Nematizadeh.pdf"
