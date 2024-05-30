@@ -1,10 +1,2 @@
-flask
-numpy
-pillow
-onnxruntime
-opencv-python
-flask-sqlalchemy
-flask-migrate
-flask-login
-flask-wtf
-psycopg2-binary
+
+F l a s k
