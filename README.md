@@ -3,14 +3,14 @@
     A simple personal website
     <br/>
     <br/>
-    <a href="https://mohamadnematizadeh.github.io/my_website/">View Demo</a>
+    <a href="https://mohamadnematizadeh.liara.run/">View Demo</a>
   </p>
 </p>
 
 
 ## About The Project
 
-<img src="https://github.com/MohamadNematizadeh/my_website/blob/main/screencapture.png?raw=true" alt="about">
+<img src="https://github.com/MohamadNematizadeh/my_website/blob/main/Screenshot%202024-05-31%20101248.png?raw=true" alt="about">
 
 
 front : Html , css  , botostart
