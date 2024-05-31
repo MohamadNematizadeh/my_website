@@ -7,8 +7,7 @@
   </p>
 </p>
 
-
-## About The Project
+## About The Projects
 
 <img src="https://github.com/MohamadNematizadeh/my_website/blob/main/Screenshot%202024-05-31%20101248.png?raw=true" alt="about">
 
