@@ -1,4 +1,6 @@
   <h2 align="center">Mohammad Nematizadeh website </h2>
+  <p align="center" ><img src = "https://skillicons.dev/icons?i=html,css,bootstrap,javascript"></p>
+
   <p align="center">
     A simple personal website
     <br/>
